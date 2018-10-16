@@ -1,0 +1,6 @@
+EMAIL='16ucc094@lnmiit.ac.in'
+PASSWORD='passwordhai'
+DATABASE_HOST='localhost'
+DATABASE_USER='root'
+DATABASE_PASSWORD='haipassword'
+MYSQL_DATABASE_NAME='imdb'
