@@ -27,7 +27,7 @@ for user in userresult:
     name = user[1].split(',')
     print('Fetching data from imdb')
     # multithreading to make process faster
-    with Pool(8) as p:
+    with Pool(5) as p:
         ans = p.map(checkdb, name)
     print('Preparing a mail')
     sub = "Schedule of upcoming tv episodes"
